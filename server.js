@@ -2,7 +2,7 @@ var http = require('http');
 var url = require('url');
 var request = require('./request.js');
 
-var server = new http.Server( request ).listen(4000); 
+var server = new http.Server( request ).listen(5000); 
 
 /**
  * еще один request для сервера

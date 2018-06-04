@@ -8,7 +8,7 @@ http.createServer((req, res) => {
       if(err) {
         console.error(err);
         res.statusCode = 500;
-        res.end('На сервере произошла ошибка');
+        res.end('нет файла');
         return;
       }
       res.end(info);

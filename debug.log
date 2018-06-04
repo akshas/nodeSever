@@ -1,2 +1,16 @@
 {"level":"info","message":"Got URL GET /echo?message=tttt","timestamp":"2018-05-30T18:28:16.026Z"}
 {"level":"info","message":"Echo: tttt","timestamp":"2018-05-30T18:28:35.803Z"}
+{"level":"info","message":"Got URL GET /","timestamp":"2018-06-03T17:32:11.703Z"}
+{"level":"error","message":"Unknown url","timestamp":"2018-06-03T17:32:11.706Z"}
+{"level":"info","message":"Got URL GET /robots.txt","timestamp":"2018-06-03T17:32:11.754Z"}
+{"level":"error","message":"Unknown url","timestamp":"2018-06-03T17:32:11.755Z"}
+{"level":"info","message":"Got URL GET /favicon.ico","timestamp":"2018-06-03T17:32:12.392Z"}
+{"level":"error","message":"Unknown url","timestamp":"2018-06-03T17:32:12.392Z"}
+{"level":"info","message":"Got URL GET /echo?message=www","timestamp":"2018-06-03T17:32:34.626Z"}
+{"level":"info","message":"Echo: www","timestamp":"2018-06-03T17:32:34.626Z"}
+{"level":"info","message":"Got URL GET /echo?message=rrrr","timestamp":"2018-06-03T18:46:54.135Z"}
+{"level":"info","message":"Echo: rrrr","timestamp":"2018-06-03T18:46:54.138Z"}
+{"level":"info","message":"Got URL GET /robots.txt","timestamp":"2018-06-03T18:46:54.182Z"}
+{"level":"error","message":"Unknown url","timestamp":"2018-06-03T18:46:54.182Z"}
+{"level":"info","message":"Got URL GET /favicon.ico","timestamp":"2018-06-03T18:46:54.719Z"}
+{"level":"error","message":"Unknown url","timestamp":"2018-06-03T18:46:54.719Z"}

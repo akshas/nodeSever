@@ -20,4 +20,4 @@ let makeLogger = (path) => {
       transports: []
     });
   }
-}
+};
