@@ -1,7 +1,7 @@
 let url = require('url');
 let http = require('http');
 let fs = require('fs');
-http.createServer((req, res) => {
+let serv = http.createServer((req, res) => {
  let urlPars =  url.parse(req.url, true);
   console.log(urlPars.path);
   if ( urlPars.pathname == "/") {
@@ -19,3 +19,12 @@ http.createServer((req, res) => {
   }
 }).listen(4000);
 
+setTimeout(() => {
+ serv.close();
+}, 2500);
+
+let timer = setInterval(() => {
+  console.log(process.memoryUsage());
+  }, 1000);
+
+  timer.unref();
