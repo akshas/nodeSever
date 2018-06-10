@@ -2,7 +2,7 @@ let http = require('http');
 let fs = require('fs');
 
 let info;
-http.createServer((req, res) => {
+http.createServer((req, res) => {as`s ss`
   if (req.url = '/') {
     fs.readFile('index.html', (err, info) => {
       if(err) {
